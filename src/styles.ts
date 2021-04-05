@@ -1,4 +1,4 @@
-// import tw from 'twin.macro';
+import tw from 'twin.macro';
 
 // export const card = () => [
 //   tw`rounded-lg p-3 shadow light:bg-white dark:bg-gray-800`,
@@ -38,6 +38,6 @@
 //     border-red-500 dark:border-red-500`,
 // ];
 
-// export const h2Style = () => [tw`mb-3 text-xl font-bold`];
+export const h2Style = () => [tw`mb-8 text-4xl font-medium`];
 
-// export const h3Style = () => [tw`mb-2 text-lg font-bold`];
+export const h3Style = () => [tw`mb-2 text-2xl font-medium`];
